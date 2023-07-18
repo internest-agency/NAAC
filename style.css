@@ -1,0 +1,33 @@
+.main-menu{
+  margin-bottom: 0;
+  cursor: pointer;
+  background-color: #d0d8d333;
+}
+.menu-list{
+  height: 0;
+  opacity: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0 24px;
+  display: none;  
+}
+.sidebar{
+  padding: 20px;
+  background-color: #192f59;
+  color: white;
+}
+.menu-list.active{
+  height: auto;
+  opacity: 1;
+  display: block;
+}
+.menu-list li{
+  padding: 10px;
+  border-bottom: 1px solid #d0d8d333;
+}
+.menu-list li:last-child{
+  border-bottom: none;
+}
+.main-menu{
+  padding: 10px;
+}
